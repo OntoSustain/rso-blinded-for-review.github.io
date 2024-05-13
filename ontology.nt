@@ -418,18 +418,21 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://www.blinded-for-review/rso#CoreEnvironmentTopic
 <https://www.blinded-for-review/rso#CoreEnvironmentTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#CoreEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#CoreTopic> .
+<https://www.blinded-for-review/rso#CoreEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of CoreEnvironmentalTopic derive from the GRI standards and represent specific environmental issues. This classification aids in organizing and addressing distinct environmental aspects through targeted indicators."@en .
 <https://www.blinded-for-review/rso#CoreEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#label> "Core Environment Topic"@en .
 <https://www.blinded-for-review/rso#CoreEnvironmentTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Environment Topic"@en .
 # 
 # https://www.blinded-for-review/rso#CoreGovernanceTopic
 <https://www.blinded-for-review/rso#CoreGovernanceTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#CoreGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#CoreTopic> .
+<https://www.blinded-for-review/rso#CoreGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of CoreGovernanceTopic are based on the GRI standards and represent unique governance concerns. These topics facilitate the categorization of governance-related indicators, promoting transparency and accountability in corporate governance practices."@en .
 <https://www.blinded-for-review/rso#CoreGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#label> "Core Governance Topic"@en .
 <https://www.blinded-for-review/rso#CoreGovernanceTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Governance Topic"@en .
 # 
 # https://www.blinded-for-review/rso#CoreSocialTopic
 <https://www.blinded-for-review/rso#CoreSocialTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#CoreSocialTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#CoreTopic> .
+<https://www.blinded-for-review/rso#CoreSocialTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "Individuals of CoreSocialTopic are sourced from the GRI standards and encompass specific social issues. This categorization helps in the systematic reporting and evaluation of social topics, focusing on areas such as labor practices, human rights, and community engagement."@en .
 <https://www.blinded-for-review/rso#CoreSocialTopic> <http://www.w3.org/2000/01/rdf-schema#label> "Core Social Topic"@en .
 <https://www.blinded-for-review/rso#CoreSocialTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Social Topic"@en .
 # 
@@ -494,30 +497,35 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://www.blinded-for-review/rso#ESRSEnvironmentTopic
 <https://www.blinded-for-review/rso#ESRSEnvironmentTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#ESRSTopic> .
+<https://www.blinded-for-review/rso#ESRSEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS topics derived from the ESRS standards describing the environmental dimension." .
 <https://www.blinded-for-review/rso#ESRSEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Environment Topic"@en .
 <https://www.blinded-for-review/rso#ESRSEnvironmentTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Environment Topic"@en .
 # 
 # https://www.blinded-for-review/rso#ESRSGovernanceTopic
 <https://www.blinded-for-review/rso#ESRSGovernanceTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#ESRSTopic> .
+<https://www.blinded-for-review/rso#ESRSGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS topics derived from the ESRS standards describing the governance dimension." .
 <https://www.blinded-for-review/rso#ESRSGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Governance Topic"@en .
 <https://www.blinded-for-review/rso#ESRSGovernanceTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Governance Topic"@en .
 # 
 # https://www.blinded-for-review/rso#ESRSIndicator
 <https://www.blinded-for-review/rso#ESRSIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSIndicator> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.blinded-for-review/rso#GRIIndicator> .
+<https://www.blinded-for-review/rso#ESRSIndicator> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS indicator is a specific measurement or metric defined under the European Sustainability Reporting Standards (ESRS)."@en .
 <https://www.blinded-for-review/rso#ESRSIndicator> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Indicator"@en .
 <https://www.blinded-for-review/rso#ESRSIndicator> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Indicator"@en .
 # 
 # https://www.blinded-for-review/rso#ESRSSocialTopic
 <https://www.blinded-for-review/rso#ESRSSocialTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSSocialTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#ESRSTopic> .
+<https://www.blinded-for-review/rso#ESRSSocialTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS topics derived from the ESRS standards describing the social dimension." .
 <https://www.blinded-for-review/rso#ESRSSocialTopic> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Social Topic"@en .
 <https://www.blinded-for-review/rso#ESRSSocialTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Social Topic"@en .
 # 
 # https://www.blinded-for-review/rso#ESRSStandard
 <https://www.blinded-for-review/rso#ESRSStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSStandard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#Standard> .
+<https://www.blinded-for-review/rso#ESRSStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "The European Sustainability Reporting Standards (ESRS) establish a comprehensive framework for sustainability reporting by companies operating within the European Union. These guidelines detail specific reporting requirements, encompassing both broad principles and detailed disclosure obligations."@en .
 <https://www.blinded-for-review/rso#ESRSStandard> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Standard"@en .
 <https://www.blinded-for-review/rso#ESRSStandard> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Standard"@en .
 # 
@@ -532,12 +540,14 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#ESRSStandard> .
 <https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.blinded-for-review/rso#ESRSUniversalStandard> .
+<https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS topical standards provide detailed disclosure requirements across environmental (E), social (S), and governance (G) topics. Environmental (E) topic focus on aspects related to environmental impact, such as climate change, biodiversity, and resource use. Social (S) standards address social matters, including human rights, labor practices, and community engagement.Governance (G) standards pertain to governance practices, board structures, and transparency."@en .
 <https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Topical Standard"@en .
 <https://www.blinded-for-review/rso#ESRSTopicalStandard> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Topical Standard"@en .
 # 
 # https://www.blinded-for-review/rso#ESRSUniversalStandard
 <https://www.blinded-for-review/rso#ESRSUniversalStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#ESRSUniversalStandard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#ESRSStandard> .
+<https://www.blinded-for-review/rso#ESRSUniversalStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "ESRS universal standards provide general reporting concepts and overarching disclosure requirements that apply across all undertakings, regardless of the sector they operate in."@en .
 <https://www.blinded-for-review/rso#ESRSUniversalStandard> <http://www.w3.org/2000/01/rdf-schema#label> "ESRS Universal Standard"@en .
 <https://www.blinded-for-review/rso#ESRSUniversalStandard> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Universal Standard"@en .
 # 
@@ -620,23 +630,27 @@ _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # https://www.blinded-for-review/rso#GRIEnvironmentTopic
 <https://www.blinded-for-review/rso#GRIEnvironmentTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#GRIEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#GRITopic> .
+<https://www.blinded-for-review/rso#GRIEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "GRI topics derived from the GRI standards describing the environmental dimension." .
 <https://www.blinded-for-review/rso#GRIEnvironmentTopic> <http://www.w3.org/2000/01/rdf-schema#label> "GRI Environment Topic"@en .
 <https://www.blinded-for-review/rso#GRIEnvironmentTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Environment Topic"@en .
 # 
 # https://www.blinded-for-review/rso#GRIGovernanceTopic
 <https://www.blinded-for-review/rso#GRIGovernanceTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#GRIGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#GRITopic> .
+<https://www.blinded-for-review/rso#GRIGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "GRI topics derived from the GRI standards describing the governance dimension." .
 <https://www.blinded-for-review/rso#GRIGovernanceTopic> <http://www.w3.org/2000/01/rdf-schema#label> "GRI Governance Topic"@en .
 <https://www.blinded-for-review/rso#GRIGovernanceTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Governance Topic"@en .
 # 
 # https://www.blinded-for-review/rso#GRIIndicator
 <https://www.blinded-for-review/rso#GRIIndicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.blinded-for-review/rso#GRIIndicator> <http://www.w3.org/2000/01/rdf-schema#comment> "GRI indicators are part of the Global Reporting Initiative (GRI) Standards, which are widely used for sustainability reporting globally."@en .
 <https://www.blinded-for-review/rso#GRIIndicator> <http://www.w3.org/2000/01/rdf-schema#label> "GRI Indicator"@en .
 <https://www.blinded-for-review/rso#GRIIndicator> <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Indicator"@en .
 # 
 # https://www.blinded-for-review/rso#GRISocialTopic
 <https://www.blinded-for-review/rso#GRISocialTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://www.blinded-for-review/rso#GRISocialTopic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.blinded-for-review/rso#GRITopic> .
+<https://www.blinded-for-review/rso#GRISocialTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "GRI topics derived from the GRI standards describing the social dimension." .
 <https://www.blinded-for-review/rso#GRISocialTopic> <http://www.w3.org/2000/01/rdf-schema#label> "GRI Social Topic"@en .
 <https://www.blinded-for-review/rso#GRISocialTopic> <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Social Topic"@en .
 # 
@@ -765,6 +779,7 @@ _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # https://www.blinded-for-review/rso#Value
 <https://www.blinded-for-review/rso#Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.blinded-for-review/rso#Value> <http://www.w3.org/2000/01/rdf-schema#comment> "This class acts as a collective framework for organizing quantitative data within sustainability reports. It encompasses two subclasses:(1) ReportValue, which structures individual data entries including numerical values and units linked to specific indicators, and (2) BreakdownValue, which allows for detailed disaggregation of data according to defined criteria, enhancing data analysis and reporting precision."@en .
 <https://www.blinded-for-review/rso#Value> <http://www.w3.org/2000/01/rdf-schema#label> "Value"@en .
 <https://www.blinded-for-review/rso#Value> <http://www.w3.org/2004/02/skos/core#prefLabel> "Value"@en .
 # 

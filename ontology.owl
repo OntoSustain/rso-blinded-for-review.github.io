@@ -676,6 +676,7 @@ These breakdown values are linked to specific report values.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#CoreEnvironmentTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#CoreTopic"/>
+        <rdfs:comment xml:lang="en">Individuals of CoreEnvironmentalTopic derive from the GRI standards and represent specific environmental issues. This classification aids in organizing and addressing distinct environmental aspects through targeted indicators.</rdfs:comment>
         <rdfs:label xml:lang="en">Core Environment Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">Core Environment Topic</skos:prefLabel>
     </owl:Class>
@@ -687,6 +688,7 @@ These breakdown values are linked to specific report values.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#CoreGovernanceTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#CoreTopic"/>
+        <rdfs:comment xml:lang="en">Individuals of CoreGovernanceTopic are based on the GRI standards and represent unique governance concerns. These topics facilitate the categorization of governance-related indicators, promoting transparency and accountability in corporate governance practices.</rdfs:comment>
         <rdfs:label xml:lang="en">Core Governance Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">Core Governance Topic</skos:prefLabel>
     </owl:Class>
@@ -698,6 +700,7 @@ These breakdown values are linked to specific report values.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#CoreSocialTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#CoreTopic"/>
+        <rdfs:comment xml:lang="en">Individuals of CoreSocialTopic are sourced from the GRI standards and encompass specific social issues. This categorization helps in the systematic reporting and evaluation of social topics, focusing on areas such as labor practices, human rights, and community engagement.</rdfs:comment>
         <rdfs:label xml:lang="en">Core Social Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">Core Social Topic</skos:prefLabel>
     </owl:Class>
@@ -790,6 +793,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSEnvironmentTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#ESRSTopic"/>
+        <rdfs:comment>ESRS topics derived from the ESRS standards describing the environmental dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Environment Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Environment Topic</skos:prefLabel>
     </owl:Class>
@@ -801,6 +805,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSGovernanceTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#ESRSTopic"/>
+        <rdfs:comment>ESRS topics derived from the ESRS standards describing the governance dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Governance Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Governance Topic</skos:prefLabel>
     </owl:Class>
@@ -812,6 +817,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSIndicator">
         <owl:disjointWith rdf:resource="https://www.blinded-for-review/rso#GRIIndicator"/>
+        <rdfs:comment xml:lang="en">ESRS indicator is a specific measurement or metric defined under the European Sustainability Reporting Standards (ESRS).</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Indicator</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Indicator</skos:prefLabel>
     </owl:Class>
@@ -823,6 +829,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSSocialTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#ESRSTopic"/>
+        <rdfs:comment>ESRS topics derived from the ESRS standards describing the social dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Social Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Social Topic</skos:prefLabel>
     </owl:Class>
@@ -834,6 +841,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSStandard">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#Standard"/>
+        <rdfs:comment xml:lang="en">The European Sustainability Reporting Standards (ESRS) establish a comprehensive framework for sustainability reporting by companies operating within the European Union. These guidelines detail specific reporting requirements, encompassing both broad principles and detailed disclosure obligations.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Standard</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Standard</skos:prefLabel>
     </owl:Class>
@@ -858,6 +866,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSTopicalStandard">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#ESRSStandard"/>
         <owl:disjointWith rdf:resource="https://www.blinded-for-review/rso#ESRSUniversalStandard"/>
+        <rdfs:comment xml:lang="en">ESRS topical standards provide detailed disclosure requirements across environmental (E), social (S), and governance (G) topics. Environmental (E) topic focus on aspects related to environmental impact, such as climate change, biodiversity, and resource use. Social (S) standards address social matters, including human rights, labor practices, and community engagement.Governance (G) standards pertain to governance practices, board structures, and transparency.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Topical Standard</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Topical Standard</skos:prefLabel>
     </owl:Class>
@@ -869,6 +878,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#ESRSUniversalStandard">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#ESRSStandard"/>
+        <rdfs:comment xml:lang="en">ESRS universal standards provide general reporting concepts and overarching disclosure requirements that apply across all undertakings, regardless of the sector they operate in.</rdfs:comment>
         <rdfs:label xml:lang="en">ESRS Universal Standard</rdfs:label>
         <skos:prefLabel xml:lang="en">ESRS Universal Standard</skos:prefLabel>
     </owl:Class>
@@ -984,6 +994,7 @@ credibly.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#GRIEnvironmentTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#GRITopic"/>
+        <rdfs:comment>GRI topics derived from the GRI standards describing the environmental dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">GRI Environment Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">GRI Environment Topic</skos:prefLabel>
     </owl:Class>
@@ -995,6 +1006,7 @@ credibly.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#GRIGovernanceTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#GRITopic"/>
+        <rdfs:comment>GRI topics derived from the GRI standards describing the governance dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">GRI Governance Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">GRI Governance Topic</skos:prefLabel>
     </owl:Class>
@@ -1005,6 +1017,7 @@ credibly.</rdfs:comment>
 
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#GRIIndicator">
+        <rdfs:comment xml:lang="en">GRI indicators are part of the Global Reporting Initiative (GRI) Standards, which are widely used for sustainability reporting globally.</rdfs:comment>
         <rdfs:label xml:lang="en">GRI Indicator</rdfs:label>
         <skos:prefLabel xml:lang="en">GRI Indicator</skos:prefLabel>
     </owl:Class>
@@ -1016,6 +1029,7 @@ credibly.</rdfs:comment>
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#GRISocialTopic">
         <rdfs:subClassOf rdf:resource="https://www.blinded-for-review/rso#GRITopic"/>
+        <rdfs:comment>GRI topics derived from the GRI standards describing the social dimension.</rdfs:comment>
         <rdfs:label xml:lang="en">GRI Social Topic</rdfs:label>
         <skos:prefLabel xml:lang="en">GRI Social Topic</skos:prefLabel>
     </owl:Class>
@@ -1226,6 +1240,7 @@ This class is defined as the super class for subclasses.</rdfs:comment>
 
 
     <owl:Class rdf:about="https://www.blinded-for-review/rso#Value">
+        <rdfs:comment xml:lang="en">This class acts as a collective framework for organizing quantitative data within sustainability reports. It encompasses two subclasses:(1) ReportValue, which structures individual data entries including numerical values and units linked to specific indicators, and (2) BreakdownValue, which allows for detailed disaggregation of data according to defined criteria, enhancing data analysis and reporting precision.</rdfs:comment>
         <rdfs:label xml:lang="en">Value</rdfs:label>
         <skos:prefLabel xml:lang="en">Value</skos:prefLabel>
     </owl:Class>
