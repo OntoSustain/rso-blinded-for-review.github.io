@@ -1,28 +1,29 @@
-@prefix : <https://www.blinded-for-review/rso#> .
+@prefix : <http://www.fortiss.org/diprolea/ontosustain/rso#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://www.blinded-for-review/rso#> .
+@base <http://www.fortiss.org/diprolea/ontosustain/rso#> .
 
-<https://www.blinded-for-review/rso> rdf:type owl:Ontology ;
-                                      <http://purl.org/dc/elements/1.1/publisher> "Blinded for review"@en ;
-                                      <http://purl.org/dc/elements/1.1/title> "An Ontology towards Digital Sustainability Reporting"@en ;
-                                      <http://purl.org/dc/terms/abstract> "Sustainability reporting by Small and Medium Enterprises (SMEs) is gaining importance. SMEs form the backbone of European industries, and their customers rely on them to ensure regulatory compliance. In preparing sustainability reports, a combination of standards is commonly used, which encompasses overlapping yet distinct requirements on sustainability indicators. Different standards categorize shared indicators under varying topics, while they also mandate unique indicators to assess identical sustainability phenomena. This poses challenges for SMEs in reporting against multiple standards. Considerable human efforts are demanded to determine the interconnected requirements across different standards. Additionally, reporting on overlapping indicators for new standards results in significant redundant work. Mapping of indicators between different standards allows the semantic interoperability of standards by indicating matching and distinct requirements, aiding in addressing these challenges. The purpose of RSO is to facilitate the interoperability of sustainability standards by indicating the matching and distinct indicators. Indicator mapping will provide further information such as: which report data can be reused for another standard, what distinct requirements exist for the overlapping indicators in two standards, and which distinct indicators are required for the same topic/subtopic by different standards."@en ;
-                                      <http://purl.org/dc/terms/contributor> "Blinded for review" ;
-                                      <http://purl.org/dc/terms/created> "2023-12-01" ;
-                                      <http://purl.org/dc/terms/creator> "Blinded for review" ;
-                                      <http://purl.org/dc/terms/description> "RSO is designed  for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS. It formally represents (1) the classification and provenance information of indicators in the GRI and ESRS standards; (2) the requirements for indicators. RSO is envisioned to be integrated into the SME digital infrastructure. Accompanied by suitable digital infrastructure, the reporting system leveraging RSO as a knowledge base will empower the daily tasks of sustainability managers."@en ,
-                                                                             "The ontology defines the representation of environmental indicators in sustainability reporting standards GRI and ESRS."@en ;
-                                      <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
-                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "rso" ;
-                                      <http://purl.org/vocab/vann/preferredNamespaceUri> "https://www.blinded-for-review/rso#" ;
-                                      rdfs:comment "RSO is designed for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS. It formally represents (1) the classification and provenance information of indicators in the GRI and ESRS standards; (2) the requirements for indicators. RSO is envisioned to be integrated into the SME digital infrastructure. Accompanied by suitable digital infrastructure, the reporting system leveraging RSO as a knowledge base will empower the daily tasks of sustainability managers."@en ;
-                                      rdfs:label "The Sustainability Reporting Standard Ontology"@en ;
-                                      owl:versionIRI "https://www.blinded-for-review/rso/0.1.0" ;
-                                      owl:versionInfo "0.1.0" ;
-                                      <https://schema.org/url> "https://www.blinded-for-review/rso" .
+<http://www.fortiss.org/diprolea/ontosustain/rso> rdf:type owl:Ontology ;
+                                                   <http://purl.org/dc/elements/1.1/publisher> "fortissGmbH, Platfrom Engineering Group"@en ;
+                                                   <http://purl.org/dc/elements/1.1/title> "The Sustainability Report Standard Ontology"@en ;
+                                                   <http://purl.org/dc/terms/abstract> "Sustainability reporting by Small and Medium Enterprises (SMEs) is gaining importance. SMEs form the backbone of European industries, and their customers rely on them to ensure regulatory compliance. In preparing sustainability reports, a combination of standards is commonly used, which encompasses overlapping yet distinct requirements on sustainability indicators. Different standards categorize shared indicators under varying topics, while they also mandate unique indicators to assess identical sustainability phenomena. This poses challenges for SMEs in reporting against multiple standards. Considerable human efforts are demanded to determine the interconnected requirements across different standards. Additionally, reporting on overlapping indicators for new standards results in significant redundant work. Mapping of indicators between different standards allows the semantic interoperability of standards by indicating matching and distinct requirements, aiding in addressing these challenges. The purpose of RSO is to facilitate the interoperability of sustainability standards by indicating the matching and distinct indicators. Indicator mapping will provide further information such as: which report data can be reused for another standard, what distinct requirements exist for the overlapping indicators in two standards, and which distinct indicators are required for the same topic/subtopic by different standards."@en ;
+                                                   <http://purl.org/dc/terms/contributor> "Alexander Perzylo" ,
+                                                                                          "Yuan Cao" ;
+                                                   <http://purl.org/dc/terms/created> "2023-12-01" ;
+                                                   <http://purl.org/dc/terms/creator> "Yuchen Zhou" ;
+                                                   <http://purl.org/dc/terms/description> "RSO is designed  for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS. It formally represents (1) the classification and provenance information of indicators in the GRI and ESRS standards; (2) the requirements for indicators. RSO is envisioned to be integrated into the SME digital infrastructure. Accompanied by suitable digital infrastructure, the reporting system leveraging RSO as a knowledge base will empower the daily tasks of sustainability managers."@en ,
+                                                                                          "The ontology defines the representation of environmental indicators in sustainability reporting standards GRI and ESRS."@en ;
+                                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "rso" ;
+                                                   <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.fortiss.org/diprolea/ontosustain/rso#" ;
+                                                   rdfs:comment "RSO is designed for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS. It formally represents (1) the classification and provenance information of indicators in the GRI and ESRS standards; (2) the requirements for indicators. RSO is envisioned to be integrated into the SME digital infrastructure. Accompanied by suitable digital infrastructure, the reporting system leveraging RSO as a knowledge base will empower the daily tasks of sustainability managers."@en ;
+                                                   rdfs:label "The Sustainability Reporting Standard Ontology"@en ;
+                                                   owl:versionIRI "http://www.fortiss.org/diprolea/ontosustain/rso/0.1.0" ;
+                                                   owl:versionInfo "0.1.0" ;
+                                                   <https://schema.org/url> "http://www.fortiss.org/diprolea/ontosustain/rso" .
 
 #################################################################
 #    Annotation properties
@@ -77,6 +78,14 @@
 <http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasOfficialCode
+:hasOfficialCode rdf:type owl:AnnotationProperty .
+
+
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasSelfDefinedCode
+:hasSelfDefinedCode rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2002/07/owl#versionIRI
 owl:versionIRI rdf:type owl:AnnotationProperty .
 
@@ -91,14 +100,6 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
 
 ###  https://schema.org/url
 <https://schema.org/url> rdf:type owl:AnnotationProperty .
-
-
-###  https://www.blinded-for-review/rso#hasOfficialCode
-:hasOfficialCode rdf:type owl:AnnotationProperty .
-
-
-###  https://www.blinded-for-review/rso#hasSelfDefinedCode
-:hasSelfDefinedCode rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -118,20 +119,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                                               <http://www.w3.org/2004/02/skos/core#prefLabel> "has Quantity Kind"@en .
 
 
-###  https://qudt.org/schema/qudt/hasUnit
-<https://qudt.org/schema/qudt/hasUnit> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain [ rdf:type owl:Class ;
-                                                     owl:unionOf ( :Indicator
-                                                                   :Value
-                                                                 )
-                                                   ] ;
-                                       rdfs:range <http://qudt.org/schema/qudt/Unit> ;
-                                       rdfs:comment "This property relates the indicator with the required unit derived from the sustainability standards."@en ;
-                                       rdfs:label "has Unit"@en ;
-                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "has Unit"@en .
-
-
-###  https://www.blinded-for-review/rso#hasApplicability
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasApplicability
 :hasApplicability rdf:type owl:ObjectProperty ;
                   rdfs:domain :Indicator ;
                   rdfs:range :Applicability ;
@@ -140,7 +128,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "has applicability"@en .
 
 
-###  https://www.blinded-for-review/rso#hasBreakDownValue
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasBreakDownValue
 :hasBreakDownValue rdf:type owl:ObjectProperty ;
                    rdfs:domain :ReportValue ;
                    rdfs:range :BreakDownValue ;
@@ -149,7 +137,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "has break down value"@en .
 
 
-###  https://www.blinded-for-review/rso#hasCalculationVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasCalculationVariable
 :hasCalculationVariable rdf:type owl:ObjectProperty ;
                         rdfs:domain :AbsoluteIndicator ;
                         rdfs:range :Variable ;
@@ -158,7 +146,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                         <http://www.w3.org/2004/02/skos/core#prefLabel> "has Calculation Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasDenominatorQuantityKind
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasDenominatorQuantityKind
 :hasDenominatorQuantityKind rdf:type owl:ObjectProperty ;
                             rdfs:subPropertyOf <http://qudt.org/schema/qudt/hasQuantityKind> ;
                             rdfs:domain :IntensityIndicator ;
@@ -168,7 +156,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "has Denominator Quantity Kind"@en .
 
 
-###  https://www.blinded-for-review/rso#hasDenominatorVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasDenominatorVariable
 :hasDenominatorVariable rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf :hasMeasurementVariable ;
                         rdfs:domain :WeightedIndicator ;
@@ -178,7 +166,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                         <http://www.w3.org/2004/02/skos/core#prefLabel> "has Denominator Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasMeasurementVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasMeasurementVariable
 :hasMeasurementVariable rdf:type owl:ObjectProperty ;
                         rdfs:domain :Indicator ;
                         rdfs:range :Variable ;
@@ -187,7 +175,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                         <http://www.w3.org/2004/02/skos/core#prefLabel> "has Measurement Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasNegativeVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasNegativeVariable
 :hasNegativeVariable rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf :hasCalculationVariable ;
                      rdfs:domain :AbsoluteIndicator ;
@@ -197,7 +185,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "has Negative Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasNumeratorQuantityKind
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasNumeratorQuantityKind
 :hasNumeratorQuantityKind rdf:type owl:ObjectProperty ;
                           rdfs:subPropertyOf <http://qudt.org/schema/qudt/hasQuantityKind> ;
                           rdfs:domain :IntensityIndicator ;
@@ -207,7 +195,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                           <http://www.w3.org/2004/02/skos/core#prefLabel> "has Numerator Quantity Kind"@en .
 
 
-###  https://www.blinded-for-review/rso#hasNumeratorVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasNumeratorVariable
 :hasNumeratorVariable rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf :hasMeasurementVariable ;
                       rdfs:domain :WeightedIndicator ;
@@ -217,7 +205,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                       <http://www.w3.org/2004/02/skos/core#prefLabel> "has Numerator Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasPositiveVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasPositiveVariable
 :hasPositiveVariable rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf :hasCalculationVariable ;
                      rdfs:domain :AbsoluteIndicator ;
@@ -227,7 +215,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "has Positive Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#hasReportValue
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasReportValue
 :hasReportValue rdf:type owl:ObjectProperty ;
                 rdfs:domain :Report ;
                 rdfs:range :ReportValue ;
@@ -236,7 +224,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "has report value"@en .
 
 
-###  https://www.blinded-for-review/rso#hasSiblingIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasSiblingIndicator
 :hasSiblingIndicator rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf owl:topObjectProperty ;
                      rdf:type owl:SymmetricProperty ;
@@ -247,7 +235,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "has Sibling Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#inDisclosure
+###  http://www.fortiss.org/diprolea/ontosustain/rso#inDisclosure
 :inDisclosure rdf:type owl:ObjectProperty ;
               rdfs:domain :GRIIndicator ;
               rdfs:range :GRIDisclosure ;
@@ -256,7 +244,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
               <http://www.w3.org/2004/02/skos/core#prefLabel> "in GRI Disclosure"@en .
 
 
-###  https://www.blinded-for-review/rso#inDisclosureRequirement
+###  http://www.fortiss.org/diprolea/ontosustain/rso#inDisclosureRequirement
 :inDisclosureRequirement rdf:type owl:ObjectProperty ;
                          rdfs:domain :ESRSIndicator ;
                          rdfs:range :ESRSDisclosureRequirement ;
@@ -266,7 +254,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                          <http://www.w3.org/2004/02/skos/core#prefLabel> "in ESRS disclosure requirement"@en .
 
 
-###  https://www.blinded-for-review/rso#inStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#inStandard
 :inStandard rdf:type owl:ObjectProperty ;
             rdfs:domain [ rdf:type owl:Class ;
                           owl:unionOf ( :Disclosure
@@ -280,7 +268,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
             <http://www.w3.org/2004/02/skos/core#prefLabel> "in sustainability standard"@en .
 
 
-###  https://www.blinded-for-review/rso#isDefinedBy
+###  http://www.fortiss.org/diprolea/ontosustain/rso#isDefinedBy
 :isDefinedBy rdf:type owl:ObjectProperty ;
              rdfs:domain [ rdf:type owl:Class ;
                            owl:unionOf ( :Disclosure
@@ -294,7 +282,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
              <http://www.w3.org/2004/02/skos/core#definition> "is Defined By"@en .
 
 
-###  https://www.blinded-for-review/rso#measuresCoreTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#measuresCoreTopic
 :measuresCoreTopic rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :measuresTopic ;
                    rdfs:domain :Indicator ;
@@ -304,7 +292,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "measures Core topic"@en .
 
 
-###  https://www.blinded-for-review/rso#measuresDimension
+###  http://www.fortiss.org/diprolea/ontosustain/rso#measuresDimension
 :measuresDimension rdf:type owl:ObjectProperty ;
                    rdfs:domain :Indicator ;
                    rdfs:range :ESGDimension ;
@@ -313,7 +301,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "measures ESG dimension"@en .
 
 
-###  https://www.blinded-for-review/rso#measuresESRSTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#measuresESRSTopic
 :measuresESRSTopic rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :measuresTopic ;
                    rdfs:domain :ESRSIndicator ;
@@ -323,7 +311,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "measures ESRS Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#measuresGRITopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#measuresGRITopic
 :measuresGRITopic rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf :measuresTopic ;
                   rdfs:domain :GRIIndicator ;
@@ -333,7 +321,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "measures GRI Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#measuresTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#measuresTopic
 :measuresTopic rdf:type owl:ObjectProperty ;
                rdfs:domain :Indicator ;
                rdfs:range :Topic ;
@@ -342,7 +330,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                <http://www.w3.org/2004/02/skos/core#prefLabel> "measures sustainability topic"@en .
 
 
-###  https://www.blinded-for-review/rso#publish
+###  http://www.fortiss.org/diprolea/ontosustain/rso#publish
 :publish rdf:type owl:ObjectProperty ;
          rdfs:domain <http://www.w3.org/ns/org#Organization> ;
          rdfs:range :Report ;
@@ -351,7 +339,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
          <http://www.w3.org/2004/02/skos/core#prefLabel> "publish"@en .
 
 
-###  https://www.blinded-for-review/rso#reportsOnIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#reportsOnIndicator
 :reportsOnIndicator rdf:type owl:ObjectProperty ;
                     rdfs:domain :ReportValue ;
                     rdfs:range :Indicator ;
@@ -360,11 +348,24 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "reports on indicator"@en .
 
 
+###  https://qudt.org/schema/qudt/hasUnit
+<https://qudt.org/schema/qudt/hasUnit> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain [ rdf:type owl:Class ;
+                                                     owl:unionOf ( :Indicator
+                                                                   :Value
+                                                                 )
+                                                   ] ;
+                                       rdfs:range <http://qudt.org/schema/qudt/Unit> ;
+                                       rdfs:comment "This property relates the indicator with the required unit derived from the sustainability standards."@en ;
+                                       rdfs:label "has Unit"@en ;
+                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "has Unit"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
 
-###  https://www.blinded-for-review/rso#hasNumericalValue
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasNumericalValue
 :hasNumericalValue rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain :Value ;
@@ -374,7 +375,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "has Numerical Value"@en .
 
 
-###  https://www.blinded-for-review/rso#hasYear
+###  http://www.fortiss.org/diprolea/ontosustain/rso#hasYear
 :hasYear rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain :Report ;
@@ -396,11 +397,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
 <http://qudt.org/schema/qudt/Unit> rdf:type owl:Class .
 
 
-###  http://www.w3.org/ns/org#Organization
-<http://www.w3.org/ns/org#Organization> rdf:type owl:Class .
-
-
-###  https://www.blinded-for-review/rso#AbsoluteIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#AbsoluteIndicator
 :AbsoluteIndicator rdf:type owl:Class ;
                    rdfs:subClassOf :Indicator ;
                    owl:disjointWith :WeightedIndicator ;
@@ -409,7 +406,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Absolute Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#Applicability
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Applicability
 :Applicability rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Class ;
                                      owl:oneOf ( :enumerated
@@ -422,7 +419,7 @@ This property relates an ESRS indicator with the corresponding ESRS Disclosure R
                <http://www.w3.org/2004/02/skos/core#prefLabel> "Indicator Requirement Applicability"@en .
 
 
-###  https://www.blinded-for-review/rso#BreakDownValue
+###  http://www.fortiss.org/diprolea/ontosustain/rso#BreakDownValue
 :BreakDownValue rdf:type owl:Class ;
                 rdfs:subClassOf :Value ;
                 rdfs:comment """Breakdown values are crafted to meet the standards' requirements, allowing organizations to dissect a total report value based on specific criteria. 
@@ -431,7 +428,7 @@ These breakdown values are linked to specific report values."""@en ;
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Break Down Value"@en .
 
 
-###  https://www.blinded-for-review/rso#CoreEnvironmentTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#CoreEnvironmentTopic
 :CoreEnvironmentTopic rdf:type owl:Class ;
                       rdfs:subClassOf :CoreTopic ;
                       rdfs:comment "Individuals of CoreEnvironmentalTopic derive from the GRI standards and represent specific environmental issues. This classification aids in organizing and addressing distinct environmental aspects through targeted indicators."@en ;
@@ -439,7 +436,7 @@ These breakdown values are linked to specific report values."""@en ;
                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Environment Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#CoreGovernanceTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#CoreGovernanceTopic
 :CoreGovernanceTopic rdf:type owl:Class ;
                      rdfs:subClassOf :CoreTopic ;
                      rdfs:comment "Individuals of CoreGovernanceTopic are based on the GRI standards and represent unique governance concerns. These topics facilitate the categorization of governance-related indicators, promoting transparency and accountability in corporate governance practices."@en ;
@@ -447,7 +444,7 @@ These breakdown values are linked to specific report values."""@en ;
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Governance Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#CoreSocialTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#CoreSocialTopic
 :CoreSocialTopic rdf:type owl:Class ;
                  rdfs:subClassOf :CoreTopic ;
                  rdfs:comment "Individuals of CoreSocialTopic are sourced from the GRI standards and encompass specific social issues. This categorization helps in the systematic reporting and evaluation of social topics, focusing on areas such as labor practices, human rights, and community engagement."@en ;
@@ -455,7 +452,7 @@ These breakdown values are linked to specific report values."""@en ;
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Social Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#CoreTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#CoreTopic
 :CoreTopic rdf:type owl:Class ;
            rdfs:subClassOf :Topic ;
            rdfs:comment "Individuals of CoreTopic are borrowed from the GRI standards which represents a singular environmental issue, facilitating indicator classification."@en ;
@@ -463,7 +460,7 @@ These breakdown values are linked to specific report values."""@en ;
            <http://www.w3.org/2004/02/skos/core#prefLabel> "Core Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#CorporateGovernanceIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#CorporateGovernanceIndicator
 :CorporateGovernanceIndicator rdf:type owl:Class ;
                               owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                                          [ rdf:type owl:Restriction ;
@@ -478,14 +475,14 @@ These breakdown values are linked to specific report values."""@en ;
                               <http://www.w3.org/2004/02/skos/core#prefLabel> "Corporate governance indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#Disclosure
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Disclosure
 :Disclosure rdf:type owl:Class ;
             rdfs:comment "Covers indicators that allow an organization to report information about sustainability issues. This class is further subdivided into GRIDisclosure and ESRSDisclosureRequirement based on terms used in each standard respectively."@en ;
             rdfs:label "Disclosure"@en ;
             <http://www.w3.org/2004/02/skos/core#prefLabel> "Disclosure"@en .
 
 
-###  https://www.blinded-for-review/rso#ESGDimension
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESGDimension
 :ESGDimension rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Class ;
                                     owl:oneOf ( :Environment
@@ -498,19 +495,17 @@ These breakdown values are linked to specific report values."""@en ;
               <http://www.w3.org/2004/02/skos/core#prefLabel> "ESG Dimension"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSDisclosureRequirement
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSDisclosureRequirement
 :ESRSDisclosureRequirement rdf:type owl:Class ;
                            rdfs:subClassOf :Disclosure ;
-                           rdfs:isDefinedBy "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2F06%2520Draft%2520ESRS%25201%2520General%2520requirements%2520November%25202022.pdf"^^xsd:anyURI ;
-                           rdfs:label "ESRS Disclosure Requirement"@en ,
-                                      """ESRS structure the information to be disclosed under Disclosure Requirements.
+                           rdfs:comment """ESRS structure the information to be disclosed under Disclosure Requirements.
 Disclosure Requirements consist of more granular datapoints. The term “datapoint” in this context also refers to a narrative sub-element of a Disclosure Requirement."""@en ;
-                           <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Disclosure Requirement"@en ,
-                                                                           """ESRS structure the information to be disclosed under Disclosure Requirements.
-Disclosure Requirements consist of more granular datapoints. The term “datapoint” in this context also refers to a narrative sub-element of a Disclosure Requirement."""@en .
+                           rdfs:isDefinedBy "https://www.efrag.org/Assets/Download?assetUrl=%2Fsites%2Fwebpublishing%2FSiteAssets%2F06%2520Draft%2520ESRS%25201%2520General%2520requirements%2520November%25202022.pdf"^^xsd:anyURI ;
+                           rdfs:label "ESRS Disclosure Requirement"@en ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Disclosure Requirement"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSEnvironmentTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSEnvironmentTopic
 :ESRSEnvironmentTopic rdf:type owl:Class ;
                       rdfs:subClassOf :ESRSTopic ;
                       rdfs:comment "ESRS topics derived from the ESRS standards describing the environmental dimension." ;
@@ -518,7 +513,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Environment Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSGovernanceTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSGovernanceTopic
 :ESRSGovernanceTopic rdf:type owl:Class ;
                      rdfs:subClassOf :ESRSTopic ;
                      rdfs:comment "ESRS topics derived from the ESRS standards describing the governance dimension." ;
@@ -526,15 +521,16 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Governance Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSIndicator
 :ESRSIndicator rdf:type owl:Class ;
+               rdfs:subClassOf :Indicator ;
                owl:disjointWith :GRIIndicator ;
-               rdfs:comment "ESRS indicator is a specific measurement or metric defined under the European Sustainability Reporting Standards (ESRS)."@en ;
+               rdfs:comment "Indicators derived from the ESRS standards."@en ;
                rdfs:label "ESRS Indicator"@en ;
                <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSSocialTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSSocialTopic
 :ESRSSocialTopic rdf:type owl:Class ;
                  rdfs:subClassOf :ESRSTopic ;
                  rdfs:comment "ESRS topics derived from the ESRS standards describing the social dimension." ;
@@ -542,15 +538,15 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Social Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSStandard
 :ESRSStandard rdf:type owl:Class ;
               rdfs:subClassOf :Standard ;
-              rdfs:comment "The European Sustainability Reporting Standards (ESRS) establish a comprehensive framework for sustainability reporting by companies operating within the European Union. These guidelines detail specific reporting requirements, encompassing both broad principles and detailed disclosure obligations."@en ;
+              rdfs:comment "A piece of the sustainability reporting standard derived from the ESRS."@en ;
               rdfs:label "ESRS Standard"@en ;
               <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSTopic
 :ESRSTopic rdf:type owl:Class ;
            rdfs:subClassOf :Topic ;
            rdfs:comment "ESRS topics derived from the ESRS standards."@en ;
@@ -558,7 +554,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
            <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSTopicalStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSTopicalStandard
 :ESRSTopicalStandard rdf:type owl:Class ;
                      rdfs:subClassOf :ESRSStandard ;
                      owl:disjointWith :ESRSUniversalStandard ;
@@ -567,7 +563,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Topical Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#ESRSUniversalStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ESRSUniversalStandard
 :ESRSUniversalStandard rdf:type owl:Class ;
                        rdfs:subClassOf :ESRSStandard ;
                        rdfs:comment "ESRS universal standards provide general reporting concepts and overarching disclosure requirements that apply across all undertakings, regardless of the sector they operate in."@en ;
@@ -575,7 +571,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                        <http://www.w3.org/2004/02/skos/core#prefLabel> "ESRS Universal Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#Emission
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Emission
 :Emission rdf:type owl:Class ;
           rdfs:subClassOf :Variable ;
           rdfs:comment "A variable that quantifies emissions."@en ;
@@ -583,7 +579,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
           <http://www.w3.org/2004/02/skos/core#prefLabel> "Emission"@en .
 
 
-###  https://www.blinded-for-review/rso#EmissionIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#EmissionIndicator
 :EmissionIndicator rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                               [ rdf:type owl:Restriction ;
@@ -598,7 +594,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Emission Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#EnergyIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#EnergyIndicator
 :EnergyIndicator rdf:type owl:Class ;
                  owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                             [ rdf:type owl:Restriction ;
@@ -613,7 +609,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#EnergyVariable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#EnergyVariable
 :EnergyVariable rdf:type owl:Class ;
                 rdfs:subClassOf :Variable ;
                 rdfs:comment "A variable that quantifies energy metrics."@en ;
@@ -621,7 +617,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy"@en .
 
 
-###  https://www.blinded-for-review/rso#EnvironmentalIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#EnvironmentalIndicator
 :EnvironmentalIndicator rdf:type owl:Class ;
                         owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                                    [ rdf:type owl:Restriction ;
@@ -636,7 +632,7 @@ Disclosure Requirements consist of more granular datapoints. The term “datapoi
                         <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIDisclosure
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIDisclosure
 :GRIDisclosure rdf:type owl:Class ;
                rdfs:subClassOf :Disclosure ;
                rdfs:comment """The GRI Standards contain disclosures that allow an organization to report information about its impacts consistently and
@@ -646,7 +642,7 @@ credibly."""@en ;
                <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Disclosure"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIEnvironmentTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIEnvironmentTopic
 :GRIEnvironmentTopic rdf:type owl:Class ;
                      rdfs:subClassOf :GRITopic ;
                      rdfs:comment "GRI topics derived from the GRI standards describing the environmental dimension." ;
@@ -654,30 +650,31 @@ credibly."""@en ;
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Environment Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIGovernanceTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIGovernanceTopic
 :GRIGovernanceTopic rdf:type owl:Class ;
                     rdfs:subClassOf :GRITopic ;
-                    rdfs:comment "GRI topics derived from the GRI standards describing the governance dimension." ;
+                    rdfs:comment "GRI topics derived from the GRI standards describing the governance dimension."@en ;
                     rdfs:label "GRI Governance Topic"@en ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Governance Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIIndicator
 :GRIIndicator rdf:type owl:Class ;
-              rdfs:comment "GRI indicators are part of the Global Reporting Initiative (GRI) Standards, which are widely used for sustainability reporting globally."@en ;
+              rdfs:subClassOf :Indicator ;
+              rdfs:comment "Indicators derived from the GRI standards."@en ;
               rdfs:label "GRI Indicator"@en ;
               <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#GRISocialTopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRISocialTopic
 :GRISocialTopic rdf:type owl:Class ;
                 rdfs:subClassOf :GRITopic ;
-                rdfs:comment "GRI topics derived from the GRI standards describing the social dimension." ;
+                rdfs:comment "GRI topics derived from the GRI standards describing the social dimension."@en ;
                 rdfs:label "GRI Social Topic"@en ;
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Social Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIStandard
 :GRIStandard rdf:type owl:Class ;
              rdfs:subClassOf :Standard ;
              rdfs:comment "A GRI standard is a piece of the GRI Sustainability Reporting Standards (GRI Standards). For example, GRI 301: Materials 2016."@en ;
@@ -685,7 +682,7 @@ credibly."""@en ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#GRITopic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRITopic
 :GRITopic rdf:type owl:Class ;
           rdfs:subClassOf :Topic ;
           rdfs:comment "GRI topics derived from the GRI standards."@en ;
@@ -693,7 +690,7 @@ credibly."""@en ;
           <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#GRITopicStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRITopicStandard
 :GRITopicStandard rdf:type owl:Class ;
                   rdfs:subClassOf :GRIStandard ;
                   owl:disjointWith :GRIUniversalStandard ;
@@ -702,7 +699,7 @@ credibly."""@en ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Topic Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#GRIUniversalStandard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#GRIUniversalStandard
 :GRIUniversalStandard rdf:type owl:Class ;
                       rdfs:subClassOf :GRIStandard ;
                       rdfs:comment """The Universal Standards defined in GRI standards are: GRI 1, GRI 2 and GRI 3
@@ -713,14 +710,14 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
                       <http://www.w3.org/2004/02/skos/core#prefLabel> "GRI Universal Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#Indicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Indicator
 :Indicator rdf:type owl:Class ;
            rdfs:comment "A single measure from which conclusions on the phenomenon of interest can be inferred."@en ;
            rdfs:label "Sustainability Indicator"@en ;
            <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#IntensityIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#IntensityIndicator
 :IntensityIndicator rdf:type owl:Class ;
                     rdfs:subClassOf :WeightedIndicator ;
                     rdfs:comment "An intensity indicator has different quantity kinds and units on numerator and denominator." ;
@@ -728,7 +725,7 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Intensity Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#Material
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Material
 :Material rdf:type owl:Class ;
           rdfs:subClassOf :Variable ;
           rdfs:comment "A variable that quantifies material usage."@en ;
@@ -736,7 +733,7 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
           <http://www.w3.org/2004/02/skos/core#prefLabel> "Material"@en .
 
 
-###  https://www.blinded-for-review/rso#MaterialIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#MaterialIndicator
 :MaterialIndicator rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                               [ rdf:type owl:Restriction ;
@@ -751,7 +748,7 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Material Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#PercentageIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#PercentageIndicator
 :PercentageIndicator rdf:type owl:Class ;
                      rdfs:subClassOf :WeightedIndicator ;
                      rdfs:comment "A percentage indicator shares the same quantity kind on both numerator and denominator."@en ;
@@ -759,14 +756,14 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Percentage Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#Report
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Report
 :Report rdf:type owl:Class ;
         rdfs:comment "Represents the annual sustainability report published by a certain organization and complies with certain standards."@en ;
         rdfs:label "Sustainability Report"@en ;
         <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Report"@en .
 
 
-###  https://www.blinded-for-review/rso#ReportValue
+###  http://www.fortiss.org/diprolea/ontosustain/rso#ReportValue
 :ReportValue rdf:type owl:Class ;
              rdfs:subClassOf :Value ;
              rdfs:comment "Provides a structure to represent a single report data. Each data contains a numerical value and a measurement unit and is linked to a specific indicator."@en ;
@@ -774,7 +771,7 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Report Value"@en .
 
 
-###  https://www.blinded-for-review/rso#SocialIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#SocialIndicator
 :SocialIndicator rdf:type owl:Class ;
                  owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                             [ rdf:type owl:Restriction ;
@@ -789,7 +786,7 @@ GRI 3: Material Topics 2021 provides guidance on how to determine material topic
                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Social indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#Standard
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Standard
 :Standard rdf:type owl:Class ;
           rdfs:comment """A sustainability reporting standard is a piece of standard that is defined by a specific standard setter. For example, the standard GRI 301: Materials 2016 is part of the GRI Sustainability Reporting Standards (GRI Standards).
 This class is defined as the super class for subclasses."""@en ;
@@ -797,35 +794,35 @@ This class is defined as the super class for subclasses."""@en ;
           <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Standard"@en .
 
 
-###  https://www.blinded-for-review/rso#StandardSet
+###  http://www.fortiss.org/diprolea/ontosustain/rso#StandardSet
 :StandardSet rdf:type owl:Class ;
              rdfs:comment "Models a series of sustainability reporting standards."@en ;
              rdfs:label "Standard Set"@en ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Standard Set"@en .
 
 
-###  https://www.blinded-for-review/rso#Topic
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Topic
 :Topic rdf:type owl:Class ;
        rdfs:comment "delineates sustainability issues."@en ;
        rdfs:label "Sustainability Topic"@en ;
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Topic"@en .
 
 
-###  https://www.blinded-for-review/rso#Value
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Value
 :Value rdf:type owl:Class ;
        rdfs:comment "This class acts as a collective framework for organizing quantitative data within sustainability reports. It encompasses two subclasses:(1) ReportValue, which structures individual data entries including numerical values and units linked to specific indicators, and (2) BreakdownValue, which allows for detailed disaggregation of data according to defined criteria, enhancing data analysis and reporting precision."@en ;
        rdfs:label "Value"@en ;
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Value"@en .
 
 
-###  https://www.blinded-for-review/rso#Variable
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Variable
 :Variable rdf:type owl:Class ;
           rdfs:comment "A variable encompasses a hierarchy of subtopics within specific sustainability areas. It represents a measurable value of a phenomenon, like 'total energy consumption'."@en ;
           rdfs:label "Sustainability Variable"@en ;
           <http://www.w3.org/2004/02/skos/core#prefLabel> "Sustainability Variable"@en .
 
 
-###  https://www.blinded-for-review/rso#Waste
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Waste
 :Waste rdf:type owl:Class ;
        rdfs:subClassOf :Variable ;
        rdfs:comment "A variable that quantifies waste metrics."@en ;
@@ -833,7 +830,7 @@ This class is defined as the super class for subclasses."""@en ;
        <http://www.w3.org/2004/02/skos/core#prefLabel> "Waste"@en .
 
 
-###  https://www.blinded-for-review/rso#WasteIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#WasteIndicator
 :WasteIndicator rdf:type owl:Class ;
                 owl:equivalentClass [ owl:intersectionOf ( :Indicator
                                                            [ rdf:type owl:Restriction ;
@@ -848,7 +845,7 @@ This class is defined as the super class for subclasses."""@en ;
                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Waste Indicator"@en .
 
 
-###  https://www.blinded-for-review/rso#WeightedIndicator
+###  http://www.fortiss.org/diprolea/ontosustain/rso#WeightedIndicator
 :WeightedIndicator rdf:type owl:Class ;
                    rdfs:subClassOf :Indicator ;
                    rdfs:comment "Weighted indicator considers additional factors through weighting."@en ;
@@ -856,11 +853,15 @@ This class is defined as the super class for subclasses."""@en ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Weighted Indicator"@en .
 
 
+###  http://www.w3.org/ns/org#Organization
+<http://www.w3.org/ns/org#Organization> rdf:type owl:Class .
+
+
 #################################################################
 #    Individuals
 #################################################################
 
-###  https://www.blinded-for-review/rso#Environment
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Environment
 :Environment rdf:type owl:NamedIndividual ,
                       :ESGDimension ;
              rdfs:comment "Emissions such as greenhouse gases and air, water and ground pollution emissions falls under the Environmental dimension of sustainability."@en ;
@@ -868,7 +869,7 @@ This class is defined as the super class for subclasses."""@en ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental (E)"@en .
 
 
-###  https://www.blinded-for-review/rso#Governance
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Governance
 :Governance rdf:type owl:NamedIndividual ,
                      :ESGDimension ;
             rdfs:comment "The main issues reported under the Governance Pillar are shareholders rights, board diversity, how executives are compensated and how their compensation is aligned with the company’s sustainability performance. It also includes matters of corporate behaviour such as anti-competitive practices and corruption."@en ;
@@ -876,7 +877,7 @@ This class is defined as the super class for subclasses."""@en ;
             <http://www.w3.org/2004/02/skos/core#prefLabel> "Coporate Governance (G)" .
 
 
-###  https://www.blinded-for-review/rso#Social
+###  http://www.fortiss.org/diprolea/ontosustain/rso#Social
 :Social rdf:type owl:NamedIndividual ,
                  :ESGDimension ;
         rdfs:comment "Under the Social dimension, companies report on how they manage their employee development and labour practices."@en ;
@@ -884,7 +885,7 @@ This class is defined as the super class for subclasses."""@en ;
         <http://www.w3.org/2004/02/skos/core#prefLabel> "Social (S)"@en .
 
 
-###  https://www.blinded-for-review/rso#enumerated
+###  http://www.fortiss.org/diprolea/ontosustain/rso#enumerated
 :enumerated rdf:type owl:NamedIndividual ,
                      :Applicability ;
             rdfs:comment """An enumerated requirement is described as \"the organization shall report on the information of A or B of a phenomenon\".
@@ -893,7 +894,7 @@ For example, \"the reporting organization shall report the following information
             <http://www.w3.org/2004/02/skos/core#prefLabel> "enumerated"@en .
 
 
-###  https://www.blinded-for-review/rso#mandatory
+###  http://www.fortiss.org/diprolea/ontosustain/rso#mandatory
 :mandatory rdf:type owl:NamedIndividual ,
                     :Applicability ;
            rdfs:comment "A mandatory requirement for an indicator is indicated by the word \"shall\" in the requirement description."@en ;
@@ -901,7 +902,7 @@ For example, \"the reporting organization shall report the following information
            <http://www.w3.org/2004/02/skos/core#prefLabel> "mandatory"@en .
 
 
-###  https://www.blinded-for-review/rso#optional
+###  http://www.fortiss.org/diprolea/ontosustain/rso#optional
 :optional rdf:type owl:NamedIndividual ,
                    :Applicability ;
           rdfs:comment "An optional requirement for an indicator is indicated by the expression \"if applicable\" in the requirement description."@en ;
